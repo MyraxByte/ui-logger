@@ -38,7 +38,7 @@ const namedLogger = logger.get('my_namespace');
 namedLogger.log('Will record to scope my_namespace');
 
 const anotherOneLogger = namedLogger.get('another_one');
-namedLogger.log('Will record to scope another_one');
+anotherOneLogger.log('Will record to scope another_one');
 ```
 
 ## Settings
